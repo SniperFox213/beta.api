@@ -15,7 +15,7 @@ const handler = (req, res) => {
 
     let profile = {
       nickname: random.login.username,
-      displayName: `${random.name.first} ${random.name.last}`,
+      displayName: null,
       avatar: null,
       created: moment().unix()
     };
